@@ -6,7 +6,7 @@ categories:
     - "Example"
 tags:
     - "markdown"
-image: martin-martz-o8qJ31NXwTo-unsplash.webp
+image: marek-szturc-2s3fI3M1lO0-unsplash.webp
 lastmod: "2026-01-05"
 ---
 
