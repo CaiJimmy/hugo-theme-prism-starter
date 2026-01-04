@@ -18,3 +18,7 @@ _merge = "deep"
 
 [markup]
 _merge = 'deep'
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
