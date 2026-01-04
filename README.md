@@ -16,15 +16,15 @@ It comes with a basic theme structure and configuration. GitHub action has been 
 
 4. Check `config` folder for the configuration files. You can edit them to suit your needs. Make sure to update the `baseurl` property in `config/_default/config.toml` to your site's URL.
 
-5. Open Settings -> Pages. Change the build branch from `master` to `gh-pages`.
-![Build](https://github.com/namanh11611/hugo-theme-stack-starter/assets/16586200/12c763cd-bead-4923-b610-8788f388fcb5)
+5. Open Settings -> Pages. Change the build source to GitHub Action:
+![GitHub Page](https://github.com/user-attachments/assets/80e85d30-e7b0-4dff-8479-ae0ed218fe1b)
 
-6. Once you're done editing the site, just commit it and push it. GitHub action will deploy the site automatically to GitHub page asociated with the repository.
-![GitHub action](https://user-images.githubusercontent.com/5889006/156916881-90b8bb9b-1925-4e60-9d7a-8026cda729bf.png)
+7. Once you're done editing the site, just commit it and push it. GitHub action will deploy the site automatically to GitHub page asociated with the repository.
+![GitHub action sucess](https://github.com/user-attachments/assets/7229c81c-731f-414c-9f69-00fc78fe3bb0)
 
 ---
 
-In case you don't want to use GitHub codespace, you can also run this template in your local machine. **You need to install Git, Go and Hugo extended locally.**
+In case you don't want to use GitHub codespace, you can also run this template in your local machine. **You need to install Git, Go, Dart SCSS and Hugo extended locally.**
 
 ## Update theme manually
 
@@ -37,29 +37,4 @@ hugo mod tidy
 
 ## Deploy to another static page hostings
 
-If you want to build this site using another static page hosting, you need to make sure they have Go installed in the machine. 
-
-<details>
-  <summary>Vercel</summary>
-  
-You need to overwrite build command to install manually Go:
-
-```
-amazon-linux-extras install golang1.11 && hugo --gc --minify
-```
-
-![](https://user-images.githubusercontent.com/5889006/156917172-01e4d418-3469-4ffb-97e4-a905d28b8424.png)
-
-If you are using Node.js 20, you need to overwrite the install command to install manually Go:
-
-```
-dnf install -y golang
-```
-
-![image](https://github.com/zhi-yi-huang/hugo-theme-stack-starter/assets/83860323/777c1109-dfc8-4893-9db7-1305ec027cf5)
-
-
-Make sure also to specify Hugo version in the environment variable `HUGO_VERSION` (Use the latest version of Hugo extended):
-
-![Environment variable](https://user-images.githubusercontent.com/5889006/156917212-afb7c70d-ab85-480f-8288-b15781a462c0.png)
-</details>
+If you want to build this site using another static page hosting, you need to make sure that **Go and Dart SCSS are installed**. You can check the official Hugo documentation for more information: https://gohugo.io/host-and-deploy/
