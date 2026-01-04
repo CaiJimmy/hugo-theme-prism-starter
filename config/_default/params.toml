@@ -2,6 +2,7 @@ siteNamePostfix = "/"
 mainSections = ["post"]
 rssFullContent = true
 Logo = "https://avatars.githubusercontent.com/u/5889006?s=100"
+description = "Minimal in form, vibrant in heart"
 
 [Default]
 [Default.Hero]
@@ -12,5 +13,5 @@ Vibrant = true
 since = 2026
 
 [opengraph.twitter]
-site = "0xJimmy"
+site = "YOUR_TWITTER_USERNAME"
 card = "summary_large_image"
