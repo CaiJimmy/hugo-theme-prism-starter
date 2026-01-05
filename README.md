@@ -8,6 +8,8 @@ It comes with a basic theme structure and configuration. GitHub action has been 
 
 ## Get started
 
+> In case you got lost and prefer a video tutorial, check this [video](https://www.youtube.com/watch?v=SLZV5ERHVWo).
+
 1. Click *Use this template*, and create your repository as `<username>.github.io` on GitHub.
 ![Step 1](https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png)
 
