@@ -1,3 +1,5 @@
+![Hugo Theme Prism](https://github.com/user-attachments/assets/b30a1ad0-c135-49f3-a34b-a9d1181ba117)
+
 # Hugo Theme Prism Starter Template
 
 This is a quick start template for [Hugo theme Prism](https://github.com/CaiJimmy/hugo-theme-prism). It uses [Hugo modules](https://gohugo.io/hugo-modules/) feature to load the theme.
