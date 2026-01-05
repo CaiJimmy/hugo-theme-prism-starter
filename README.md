@@ -18,13 +18,13 @@ It comes with a basic theme structure and configuration. GitHub action has been 
 
 3. And voila! You're ready to go. The codespace has been configured with the latest version of Hugo extended, just run `hugo server` in the terminal and see your new site in action.
 
-4. Check `config` folder for the configuration files. You can edit them to suit your needs. Make sure to update the `baseurl` property in `config/_default/config.toml` to your site's URL.
+4. Check `config` folder for the configuration files. You can edit them to suit your needs. Make sure to update the `baseurl` property in `config/_default/hugo.toml` to your site's URL.
 
 5. Open Settings -> Pages. Change the build source to GitHub Action:
 ![GitHub Page](https://github.com/user-attachments/assets/80e85d30-e7b0-4dff-8479-ae0ed218fe1b)
 
-7. Once you're done editing the site, just commit it and push it. GitHub action will deploy the site automatically to GitHub page asociated with the repository.
-![GitHub action sucess](https://github.com/user-attachments/assets/7229c81c-731f-414c-9f69-00fc78fe3bb0)
+7. Once you're done editing the site, just commit it and push it. GitHub action will deploy the site automatically to GitHub page associated with the repository.
+![GitHub action success](https://github.com/user-attachments/assets/7229c81c-731f-414c-9f69-00fc78fe3bb0)
 
 ---
 
