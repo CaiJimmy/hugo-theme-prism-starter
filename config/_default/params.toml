@@ -15,3 +15,9 @@ since = 2026
 [opengraph.twitter]
 site = "YOUR_TWITTER_USERNAME"
 card = "summary_large_image"
+
+[comments]
+provider = "disqus"
+# In case of Disqus, you need to set the shortname in config.toml, with [services.disqus.shortname]
+# See https://gohugo.io/services/disqus/
+# Available providers: https://github.com/CaiJimmy/hugo-theme-prism/tree/main/layouts/_partials/comments

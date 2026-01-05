@@ -22,3 +22,7 @@ _merge = 'deep'
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
+
+[services]
+[services.disqus]
+shortname = 'hugo-theme-prism'
